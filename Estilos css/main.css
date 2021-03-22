@@ -1,0 +1,82 @@
+*{               /**El * selecciona todos los elementos de una página**/
+    margin: 0px; /**Margen de la página**/
+    padding: 0px;/**Margen de la caja**/
+}
+
+body{
+    background-color: lightgray;
+    font-family: cursive;
+}
+
+#container{  /**se incvocan los elementos id con # **/
+    width: 70%;
+    margin:0% auto;
+    border: 1px solid black;
+}
+
+header{
+    background: darkgreen;
+    height: 100px; /**altura**/
+    width: 100%; /**anchura**/
+    text-align: center;
+    line-height: 100px; /**alinea verticalmente**/
+    color: white;
+    border-bottom: 2px solid black;
+}
+
+nav{
+    background-color: cadetblue;
+    height: 50px;
+    border-bottom: 2px solid black;
+}
+nav ul li{
+    float: left;
+    list-style: none; /**quita diseños que vienen por defécto**/
+    margin: 10px;
+}
+
+.clearfix{ /**se invocan los elementos class con . **/
+    clear: both;
+}
+
+#content{
+    float: left;
+    width: calc(80% - 80px);
+    background-color: gray;
+    min-height: 500px;
+    padding: 40px;
+}
+
+aside{
+    float: left;
+    width: calc(20% - 20px);
+    background-color: rgb(78, 77, 77);
+    min-height: 500px;
+    color: white;
+    padding: 10px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    color: white;
+    line-height: 50px;
+}
+
+.article{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.article:first-child{
+    border-top: 1px solid black;
+    padding-top: 10px;
+}
